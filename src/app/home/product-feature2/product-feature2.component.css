@@ -1,0 +1,39 @@
+.feature-area {
+    /*background: url(../img/feature-bg.jpg) center;
+    */ 
+    background-color: #15203B;
+    background-size: cover;
+}
+.feature-area .single-feature {
+    background: #fff;
+    padding: 35px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.feature-area .single-feature .title
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+
+.feature-area .single-feature .title .lnr {
+    color: #222;
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+
+.feature-area .single-feature h4 {
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.feature-area .single-feature p {
+    margin-bottom: 0px;
+    margin-top: 15px;
+}

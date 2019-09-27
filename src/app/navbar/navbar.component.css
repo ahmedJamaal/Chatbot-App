@@ -1,0 +1,47 @@
+.bg-transparent
+{
+    background-color: transparent;
+    
+}
+.bg-transparent .navbar-nav .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar-expand-md .navbar-collapse {
+    
+    justify-content: flex-end !important;
+}
+
+.navbar-expand-md .navbar-right li {
+    padding: 10px 15px;
+}
+ .nav>li>a:hover {
+    text-decoration: underline;
+    background-color: transparent !important;
+    color: #7643ea !important;
+}
+
+nav
+{
+    position: absolute;
+    box-sizing: 1111;
+    z-index: 111;
+    height: 70px;
+    width: 100%;
+    
+}
+.navbar-brand {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.navbar-brand img
+{
+    width: 65px;
+    height: 65px;
+    margin-top: 26px;
+    margin-bottom: 5px;
+}
+

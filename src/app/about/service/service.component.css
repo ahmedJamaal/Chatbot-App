@@ -1,0 +1,25 @@
+.padding-top
+{
+    padding-top: 50px;
+}
+.padding-top10
+{
+    padding-top: 10px;
+}
+.banner-service {
+   
+    background-color: #E8EBF0;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.banner-content h1 {
+    color: #000;
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 1em;
+    padding-top: 50px;
+}

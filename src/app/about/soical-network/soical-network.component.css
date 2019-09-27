@@ -1,0 +1,118 @@
+
+/*start feature-area*/
+.feature-area
+{
+  background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)), url('../../../assets/pic/cover.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  padding: 100px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.tittle ,.single-feature h3
+{
+  color: #fff;
+}
+.tittle ,.single-feature p{
+  color: #fff;
+}
+
+.single-feature
+{
+  position: relative;
+  width: 325px;
+  float: left;
+  padding: 30px 0;
+  text-align: center;
+  border-right: 1px solid #65cbe5;
+  border-bottom: 1px solid #65cbe5;
+  -webkit-transition: 0.3ease;
+  -moz-transition: 0.3ease;
+  -o-transition: 0.3ease;
+  -ms-transition: 0.3ease;
+  transition: 0.3ease;
+}
+.featur-block::after
+{
+  content: "";
+  display: table;
+}
+.featur-block::after
+{
+  clear: both;
+}
+.feature-icon{
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.single-feature i
+{
+  border: 2px soild #fff;
+  padding: 16px;
+  border-radius: 50%;
+  font-size: 30px;
+  background: #00a7dd;
+  color: #fff;
+  width: 64px;
+  height: 64px;
+  -webkit-transition: 0.3ease;
+  -moz-transition: 0.3ease;
+  -o-transition: 0.3ease;
+  -ms-transition: 0.3ease;
+  transition: 0.3ease;
+}
+.featur-block:hover .single-feature
+{
+  border-color: #fff;
+  -webkit-transition: 0.3ease;
+  -moz-transition: 0.3ease;
+  -o-transition: 0.3ease;
+  -ms-transition: 0.3ease;
+  transition: 0.3ease;
+}
+.single-feature:hover .feature-icon .fas
+{
+  border: 2px soild #00a7dd;
+  background: #fff;
+  color: #00a7dd;
+}
+
+.single-feature:nth-of-type(even)
+{
+  border-right: none;
+}
+.single-feature:nth-last-child(2)
+{
+  border-bottom: none;
+}
+.single-feature:last-child
+{
+  border-bottom: none;
+}
+
+.feature-mockup img{
+  border-bottom: -132px;
+  position: relative;
+  width: 100%;
+  /*opacity: 0.7;*/
+  /*background-color: #000;*/
+
+}
+.feature-area .tittle .sub-heading p{
+  color: #fff;
+}
+.feature-area .tittle h3
+{
+  color: #fff;
+  font-size: 52.52px;
+  line-height: 95px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 0 40px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+/*end feature-area*/
+

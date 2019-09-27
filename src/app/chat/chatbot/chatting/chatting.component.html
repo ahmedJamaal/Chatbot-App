@@ -1,0 +1,49 @@
+<section class="chatting">
+    <div id="frame">
+        <div id="sidepanel">
+            <div id="profile">
+          </div>
+  
+            <div id="contacts">
+  
+                <img src="../../assets/chatbots (5).png" alt="">
+            </div>
+            
+        </div>
+        <div class="content">
+            <div class="contact-profile">
+                <img src="{{bot.imagePath}}" alt="" />
+                <p>{{bot.name}}</p>
+                
+                <div class="social-media">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                     <i class="fa fa-instagram" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="messages">
+                <ul class="conversation">
+                    <li class="sent">
+                        <img src={{bot.imagePath}} alt="" />
+                        <p>ssss</p>
+                    </li>
+                    <li class="replies">
+                        <img src={{bot.imagePath}} alt="" />
+                        <p>hello bot</p>
+                    </li>
+                   
+                </ul>
+            </div>
+            <div class="message-input">
+                <div class="wrap">
+
+                <input  [(ngModel)]="massage" #ctrl="ngModel" (keyup.enter)="chatting()" required type="text" placeholder="Write your message..." />
+                
+                <button class="submit" (click)="chatting()"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+

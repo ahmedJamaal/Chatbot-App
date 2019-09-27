@@ -1,0 +1,85 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    font-family: sans-serif;
+}
+.btn {
+   
+    color: #fff !important;
+ 
+    border: 1px solid #fff !important;
+}
+
+.padding-top
+{
+    padding-top: 130px;
+}
+.padding-bottom-65
+{
+    padding-bottom: 65px;
+}
+.padding-top-10
+{
+    padding-top: 10px;
+}
+.padding-bottom-10
+{
+    padding-bottom: 10px;
+}
+.bot-btn {
+    min-width: 180px;
+    height: 52px;
+    background-color: #7643ea;
+    border-radius: 0;
+    padding: 0 15px;
+    line-height: 50px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+.btn:hover, .btn:focus {
+    color: #fff !important;
+    background-color: #5d25dd;
+    text-decoration: none;
+}
+
+.pb-10 {
+    color: #fff;
+    font-size: 52.52px;
+    line-height: 95px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 40px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+.pb-11 {
+    color: #7643ea;
+    font-size: 52.52px;
+    line-height: 95px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 40px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.line {
+    background-color: #7643ea;
+}
+.line {
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+    margin: 0 auto 15px;
+    display: block;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}

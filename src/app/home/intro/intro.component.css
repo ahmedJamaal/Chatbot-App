@@ -1,0 +1,61 @@
+.home-about-area
+{
+ 
+  padding: 25px 0px;
+  background-color: #6AFDEF;
+}
+.home-about-right {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.no-padding {
+    padding: 0;
+}
+
+.home-about-left img {
+    width: 100%;
+}
+.home-about-right h1 {
+    padding: 30px 5px;
+    color: #fff;
+
+}
+.home-about-right p {
+    text-indent: -16px;
+    font-size: 24px;
+    font-family: Graphik, Helvetica, Arial, sans-serif;
+    line-height: 1.8;
+
+}
+.home-about-right p::before {
+    content: "“";
+    position: relative;
+    left: -2px;
+
+}
+.home-about-right p::after {
+    content: "“";
+    position: relative;
+    left: -2px;
+
+}
+.home-about-right .primary-btn {
+    border-radius: 0;
+}
+.primary-btn {
+    line-height: 42px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 25px;
+    border: 1px solid transparent;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    position: relative;
+}

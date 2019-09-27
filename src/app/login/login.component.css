@@ -1,0 +1,36 @@
+.padding-top
+{
+    padding-top: 130px;
+}
+.align-items-space-around{
+    align-items: flex-end;
+}
+.login-area {
+   background-color: #21B2FE;
+    
+   
+}
+
+.img-fluid {
+    max-width: 100%;
+    width: 450px;
+}
+.login-header
+{
+    background-color: #efefef;
+    padding: 15px;
+    height: -webkit-fill-available;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius:75px; 
+}
+.login-header h2{
+    text-align: center;
+}
+.google:hover
+{
+    color: aqua;
+}

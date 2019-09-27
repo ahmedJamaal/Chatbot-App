@@ -1,0 +1,67 @@
+<ng-template #content let-modal>
+    <div class="modal-header">
+      <h4 class="modal-title" id="modal-basic-title">Profile Info</h4>
+      <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+  
+      <form>
+        <div class="form-group">
+          <label for="name">Enter Your Name</label>
+          <div class="input-group">
+            <input id="name" [(ngModel)]="name"  class="form-control" placeholder="Your Name" type="text" name="dp">
+         
+          </div>
+  
+          <div class="form-check form-check-inline ">
+                <input [(ngModel)]="sex"  class="form-contro" type="radio" name="exampleRadios" id="exampleRadios1" value="male" checked>
+                <label class="form-check-label" for="exampleRadios1">
+                  Male
+                </label>
+
+                <input [(ngModel)]="sex" class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="female" checked>
+                <label class="form-check-label" for="exampleRadios1">
+                  Female
+                </label>
+        </div>
+  
+  
+        </div>
+      </form>
+  
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-danger" (click)="modal.close('Save click')">Save</button>
+    </div>
+  </ng-template>
+
+<section class="chatbot">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-3 col-xs-4 " *ngFor="let item of chatbots">
+                <div class="card hovercard">
+                    <div class="avatar">
+                        <img alt="" [src]=item.imagePath class="img-responsive">
+                    </div>
+                    <div class="info">
+                        <div class="name">
+                            
+                            <h3> {{item.name}}</h3>
+                        </div>
+                        <div class="title">{{item.jobTitle}}</div>
+                    </div>
+                    <div class="bottom">
+                            <button class="btn-danger bot-danger" (click)="open(content); getChatBotData(item)" >Start chat</button>
+                    </div>
+                </div>
+    
+            </div>
+
+           
+    </div>
+    </div>
+
+    
+</section>

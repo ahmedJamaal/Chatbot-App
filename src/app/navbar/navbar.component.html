@@ -1,0 +1,33 @@
+<nav class="navbar navbar-expand-md bg-transparent">
+	<div class="container">
+			<div class="navbar-header">
+			
+					<a class="navbar-brand" [routerLink]="['']"><img src="../../assets/images/logo2.png" alt="">
+						
+						Chatbot</a>
+				</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+		  
+			<div class="collapse navbar-collapse" id="navbarsExample04">
+			  <ul class="nav navbar-nav navbar-right">
+				<li class="nav-item active">
+				  <a class="nav-link" [routerLink]="['/home']">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" [routerLink]="['/about']">about</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" [routerLink]="['/chat']">chat</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" [routerLink]="['/login']">login</a>
+				</li>
+				
+			  </ul>
+			
+			</div>
+	</div>
+	
+  </nav>
