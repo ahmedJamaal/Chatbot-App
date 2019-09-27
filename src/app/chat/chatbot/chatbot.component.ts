@@ -11,10 +11,10 @@ import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
 })
 export class ChatbotComponent implements OnInit {
   chatbots: Chatbot[] = [
-    new Chatbot("Sophie Cagney","speaker","","../../../assets/chatbot/profile1.png"),
-    new Chatbot("Jamel Halm","sales representive","","../../../assets/chatbot/profile7.png"),
-    new Chatbot("Suzann Grossi","customer service","","../../../assets/chatbot/girl.png"),
-    new Chatbot("John Michael","techincal support","","../../../assets/chatbot/profile6.png")
+    new Chatbot("Sophie Cagney","speaker","","./././assets/chatbot/profile1.png"),
+    new Chatbot("Jamel Halm","sales representive","","./././assets/chatbot/profile7.png"),
+    new Chatbot("Suzann Grossi","customer service","","./././assets/chatbot/girl.png"),
+    new Chatbot("John Michael","techincal support","","./././assets/chatbot/profile6.png")
   ];
 
   @Output() Bot:Chatbot;

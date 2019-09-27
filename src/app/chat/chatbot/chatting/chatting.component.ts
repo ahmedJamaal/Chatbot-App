@@ -11,8 +11,8 @@ import { FormControl } from '@angular/forms';
 })
 export class ChattingComponent implements OnInit {
   user=[
-    {imagePath:"../../assets/users/user (3).png"},
-    {imagePath:"../../assets/users/user (4).png"}
+    {imagePath:"././assets/users/user(3).png"},
+    {imagePath:"././assets/users/user(4).png"}
   ];
   massage:string=''
   chat:string;

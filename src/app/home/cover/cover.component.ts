@@ -11,24 +11,24 @@ export class CoverComponent implements OnInit {
     {
       header:'Chatbots Will Be Your New Best Friend',
       pargraphs:'This carousel uses customized default values.',
-      imageUrl:'../../assets/carsol/img (1).jpg'
+      imageUrl:'././assets/carsol/img (1).jpg'
     },
 
     {
      header:'Chatbots are being used by businesses to drive more sales and improve customer support',
       pargraph:'This carousel doesn\'t pause or resume on mouse events',
-      imageUrl:'../../assets/carsol/img (2).jpg'
+      imageUrl:'././assets/carsol/img (2).jpg'
     },
 
     {
       header:'about 80% of businesses are planning to incorporate chatbots by the year 2020',
       pargraph:'This carousel uses customized default values.',
-      imageUrl:'../../assets/carsol/img (3).jpg'
+      imageUrl:'././assets/carsol/img (3).jpg'
     },
     {
      header:'you should message a business just the way you would message a friends',
       pargraph:'hello',
-      imageUrl:'../../assets/carsol/img (4).jpg'
+      imageUrl:'././assets/carsol/img (4).jpg'
     }
   ];
 
